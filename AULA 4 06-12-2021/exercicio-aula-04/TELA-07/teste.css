@@ -1,0 +1,24 @@
+body {
+    padding: 20%;
+    background-color: bisque;
+}
+
+.meu-box {
+    position: relative;
+}
+
+.input-nome {
+    width: 80%;
+    position: relative;
+    color: #5b5b5b;
+    border: 1px green solid;
+    padding: 10px 10px 10px 15px;
+    box-sizing: content-box;
+    
+    
+}
+
+
+.input-nome:focus {
+    font-weight: bold;
+}

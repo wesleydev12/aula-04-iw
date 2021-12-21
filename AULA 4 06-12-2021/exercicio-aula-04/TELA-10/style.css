@@ -1,0 +1,205 @@
+:root {
+    --color-black-1:  #000000;
+    --color-black-2:  #111111;
+    --color-black-3:  #121212;
+    --color-black-4:  #555555;
+    --color-white-1:  #ffffff;
+    --color-white-2:  #fafafa;
+    --color-white-3:  #dedede;
+    --color-white-4:  #cccccc;
+    --color-blue-1: #027ef2;
+
+    --color-text: var(--color-black-3);
+    --color-bg: var(--color-white-4)
+}
+
+.material.icons {
+    text-decoration: none;
+    color: var(--color-white-3);
+
+    
+}
+
+body {
+    background-color: var(--color-black-3);
+    padding: 10px;
+}
+
+h1{
+    padding-top: 50px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: var(--color-white-1);
+    font-weight: bold;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+input {
+    background: var(--color-black-3);
+    width: 17%;
+    justify-content: space-around;
+    border: 0;
+    margin-left: 5%;
+    border-bottom: 1px solid var(--color-white-4);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+.link {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+
+.continue {
+    width: 100%;
+    padding: 5px;
+    margin-top: px;
+    border-radius: 3px;
+    border: 2px;
+    background-color: var(--color-blue-1);
+    color: var(--color-white-1);
+    cursor: pointer;
+}
+
+button:hover {
+    transition: 0.5s;
+    background-color: rgb(27, 18, 109);
+}
+.link-2 {
+    margin-top: 25px;
+    margin-bottom: 1px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+a, a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: var(--color-blue-1);
+    
+}
+
+
+.row-1 {
+    display: inline;
+    padding-right: 0%;
+    padding-left: 0%;
+    padding-top: 0%;
+    border: none;
+    height: 0px;
+    background-color: var(--color-black-3);
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--color-white-1);
+    margin: 12%;
+    
+    
+}
+
+.row-2 {
+    display: inline;
+    padding-right: 0%;
+    padding-left: 0%;
+    padding-top: 0%;
+    border: none;
+    height: 0px;
+    background-color: var(--color-black-3);
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--color-white-1);
+    margin: 12%;
+    
+}
+
+.row-3 {
+    display: inline;
+    padding-right: 0%;
+    padding-left: 0%;
+    padding-top: 0%;
+    border: none;
+    height: 0px;
+    background-color: var(--color-black-3);
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--color-white-1);
+    margin: 12%;
+    margin-left: 43%;
+}
+
+.row-1:hover {
+    color: var(--color-blue-1);
+}
+.row-2:hover {
+    color: var(--color-blue-1);
+}
+.row-3:hover {
+    color: var(--color-blue-1);
+}
+
+.container {
+    margin-left: 7%;
+    margin-top: 0%;
+}
+
+.icons {
+    color: var(--color-white-4);
+    
+    margin-top: 5%;
+    
+    
+}
+
+#icon-3 {
+    background-color: #027ef2;
+    border-radius: 50%;
+    color: var(--color-white-1);
+    margin-left: 5%;
+    margin-right: 5%;
+      
+}
+
+i {
+    
+    padding-right: 0%;
+    padding-left: 0%;
+    padding-top: 0%;
+    border: none;
+   
+    margin: 0%;
+    margin-left: 0%;
+}
+
+#icon-1 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#icon-2 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#icon-4 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#icon-5 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.btn-2 {
+    border-radius: 50%;
+}

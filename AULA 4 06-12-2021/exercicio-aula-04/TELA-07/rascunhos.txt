@@ -1,0 +1,43 @@
+.material-icons {
+    margin-left: 15px;
+    margin-top:  20px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 0%;
+
+}
+
+p {
+    font-size: 15px;
+    color: var(--color-red-1);
+    text-align: right;
+    margin-right: 10px;
+}
+
+
+
+
+
+material ICONS
+
+
+
+.material-icons {
+    border-radius: 50%;
+    border: solid rgba(0, 0, 0, 0.1);
+    background-color:  var(--color-red-1);
+    color: var(--color-white-1);
+}
+
+
+
+bordar da camera
+
+border-radius: 50%;
+    border: solid rgba(0, 0, 0, 0.1);
+    background-color:  var(--color-red-1);
+    color: var(--color-white-1);
